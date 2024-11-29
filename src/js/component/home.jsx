@@ -38,6 +38,9 @@ function Home() {
 					/>
 					))}
 				</ul>
+				<div className="text-secondary d-flex justify-content-start"> 
+					<p className="ps-3 num-tareas">{items.length} item left </p>
+				</div>
 			</div>
 		</div>
     </div>
